@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+
     <script src="index.js"></script>
+    <script src="map.js"></script>
     <script src="//code.jquery.com/jquery.min.js"></script>
 </head>
 
@@ -33,7 +42,7 @@
   <div class = "title">
     <h1>Stephanie's Data Publication Portfolio</h1>
     <h3 class="d-none d-md-block">Welcome to My Page!</h3>
-    <p>Paris Salon, sponsored by French government and the Academy of Fine art, took place annually. The year 1863 was a hallmark in the salon history. Among the more than 5000 artworks submitted , the rejected rate is unbelievably high. The resulting uproar in the press and by refused artists was fierce. However, what is more unusual was that the king intervened and ordered a Salon des Refusés to be installed adjacent to the regular exhibition.</p>
+    <p class = "dropcap">Paris Salon, sponsored by French government and the Academy of Fine art, took place annually. The year 1863 was a hallmark in the salon history. Among the more than 5000 artworks submitted , the rejected rate is unbelievably high. The resulting uproar in the press and by refused artists was fierce. However, what is more unusual was that the king intervened and ordered a Salon des Refusés to be installed adjacent to the regular exhibition.</p>
   </div>
 </header>
     <div id="carouselExampleCaptions" class="carousel" data-bs-ride="carousel">
@@ -76,7 +85,7 @@
         </button>
       </div>
     <!-- introduction -->
-    <h3 id="intro">This is thus a data story about the two exhibitions: The official Salon and Salon des Refusés...</h3>
+    <h3 id="intro">This is thus a data story about the two exhibitions: The Official Salon and Salon des Refusés...</h3>
     <div class = "Guess">
       <div class="container">
       <div class="flex">
@@ -119,7 +128,7 @@
       </table>
     </div>
   </div>
-    <!-- footer -->
-    <div id="footer-placeholder"></div>
+      <!-- footer -->
+      <div id="footer-placeholder"></div>
 </body>
 </html>

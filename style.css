@@ -22,25 +22,37 @@ header #time{
 
 
 
-header h1{
+h1{
    font-family:'Libre Baskerville', serif;
-   padding:15px;
+   padding:20px;
 }
 
-header h3{
+h3{
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
     padding:15px;
     color:rgb(51, 137, 235);
+    text-align: center;
 }
 
-.title p{
+
+
+
+.dropcap{
     margin:1% 5%; 
     font-family: 'Quintessential', cursive;
-    font-size: 19px;
-    padding:15px;
+    font-size: 20px;
     line-height: 150%;
     text-align: left;
+}
+
+
+.dropcap::first-letter{
+    font-family: 'Quintessential', cursive;
+    float: left;
+    font-size: 60px;
+    line-height: 0.65;
+    margin: 0 1%; 
 }
 
 .title img{
@@ -236,4 +248,45 @@ footer .copy{
         width:100%; 
         height:150px !important; 
     }
+}
+
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  form {
+    margin: 0 auto; 
+    width:375px; 
+    height: auto; 
+    padding: 60px 10px 10px;
+    display: grid;
+    background-color:#EDF6FA;
+}
+
+input#post-title, textarea#post-body {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer; 
+    margin:0 auto;
+    background-color: blue;
+    color:white; 
+    margin:20px !important; 
+}
+
+
+
+.card{
+    display:flex; 
+    margin:20px;
+    flex-direction: row; 
+    justify-content: space-around; 
 }
