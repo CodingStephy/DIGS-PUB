@@ -65,15 +65,33 @@ form.addEventListener("submit", function(e) {
         .then(post => {
             postsArray.unshift(post)
             renderPosts()
-            /**
-             * Challenge: clear the form out!
-             */
             titleInput.value = ""
             bodyInput.value = ""
-            // form.reset()
         })
 })
 
 function input(){
     alert("Please input an artist using the form to see result");
 }
+
+
+function lastItem(){
+    var arr = ['Courbet','Fantin-Latour','Manet','Chintreuil'];
+    console.log(arr);
+    var last = arr.sort();
+	document.getElementById("last").innerText = "The original array: " + arr + "\n"
+                                                + "The item that is last alphabetically: "+ last[last.length-1]
+} 
+
+function evalNumber(){
+    var inputValue = parseInt(prompt("Enter any five-digit number without commas"))
+    if (inputValue % 2 ==0){
+        alert(inputValue + " is an even numbers.")
+    } else{
+        alert(inputValue + " is an odd number.")
+    }
+}
+
+
+
+

@@ -18,6 +18,7 @@
 
     <script src="index.js"></script>
     <script src="map.js"></script>
+    <script src="wiki.js"></script>
     <script src="//code.jquery.com/jquery.min.js"></script>
 </head>
 
@@ -91,7 +92,7 @@
       <div class="flex">
         <div class="fairy">
       <img src="https://res.cloudinary.com/dt5zbnwvr/image/upload/v1643501291/6-2-fairy-tattoos-png-clipart_tnmznv.png"> 
-      <p> Before we start, can you guess how many artworks were exhibited at each exhibition?
+      <p class="question"> Before we start, can you guess how many artworks were exhibited at each exhibition?
       <br>
       <button type= "button" class = "btn btn-primary" onclick="appear()">Show Result</button>
       <button type= "button" class = "btn btn-primary" onclick="disappear()">Hide Result</button>
@@ -127,6 +128,45 @@
         </tbody>
       </table>
     </div>
+  </div>
+  <!-- pictures -->
+   <div class="picture">
+    <p class="question">Or, can you guess which exhibition these paintings were exhibited at?</p>
+    <div class="comparison">
+    <img src="https://res.cloudinary.com/dt5zbnwvr/image/upload/v1646324255/screen-shot-2012-08-04-at-6-16-51-pm_ksoeah.png">
+    <p>Jean-François Millet, Man with a Hoe, 1860-1862</p>
+    <img src="https://res.cloudinary.com/dt5zbnwvr/image/upload/v1646324229/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project_wpjrm6.jpg">
+    <p>Edouard Manet, Luncheon on the grass, 1862</p>
+    </div>
+    <div class="comparison">
+      <img src="https://res.cloudinary.com/dt5zbnwvr/image/upload/v1646448840/153225725.vUIyf9KL.MontrealAug13566_m8fkdq.jpg">
+      <p>Henri Fantin-Latour, Display of Enchantment 1863</p>
+      <img src="https://res.cloudinary.com/dt5zbnwvr/image/upload/v1646324245/1599px-Baudry_paul_the_wave_and_the_pearl_wj5pxc.jpg">
+      <p>Paul-Jacques-Aimé Baudry,The Pearl and the Wave, 1862</p>
+    </div>
+   </div>
+  <!-- Wiki -->
+    <div class="wiki">
+      <div>
+      <p class="question">If you don't know the answer, try searching on wikipedia</p></div>
+      <div class="wikiload">
+      <form id="wikiForm" onsubmit="wikiAPI(); event.preventDefault()">
+        <div class="row">
+          <div class="col">
+            <input id="searchTerm" name="searchTerm" type="text" class="form-control" placeholder="Enter your search term here...">
+          </div>
+        </div>
+      </form>
+
+      <!-- Button to submit search value and invoke JS function -->
+      <button id="wikiButton" type="submit" class="btn btn-primary my-3" onclick="wikiAPI()">Search</button>
+
+      <!-- Output from JS function loads here -->
+      <div class="container" id="wikiContainer">
+        <div class="row" id="wiki"></div>
+      </div>
+    </div>
+   </div>
   </div>
       <!-- footer -->
       <div id="footer-placeholder"></div>

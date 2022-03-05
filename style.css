@@ -95,14 +95,14 @@ h3{
     transform: scaleX(-1);
 }
 
-.fairy p{
+.question{
     margin:20px; 
     font-family: 'Quintessential', cursive;
     font-size: 20px; 
 }
 
 .fairy button{
-    margin:20px 20px 20px 0px; 
+    margin:20px 20px 0px 0px; 
 }
 
 .table{
@@ -122,6 +122,39 @@ h3{
 .table #number2{
     display:none;
 }
+/* Picture */
+.picture{
+    margin:5%; 
+    display:flex; 
+    flex-direction:row; 
+}
+
+.comparison{
+    display:flex; 
+    flex-direction:column;
+    margin:20px; 
+}
+
+
+.picture img{
+    height:325px; 
+    width: auto; 
+}
+
+/* Wiki */
+.wiki{
+    margin:5%; 
+    margin: 0 auto; 
+    width:60%; 
+    height: auto; 
+    padding: 60px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:#C5E8EF;
+    text-align: center;
+}
+
+
 /* footer */
 
 .footer {
@@ -258,13 +291,13 @@ footer .copy{
     /* The width is the width of the web page */
   }
 
-  form {
+#new-post{
     margin: 0 auto; 
     width:375px; 
     height: auto; 
     padding: 60px 10px 10px;
     display: grid;
-    background-color:#EDF6FA;
+    background-color:#C5E8EF;
 }
 
 input#post-title, textarea#post-body {
