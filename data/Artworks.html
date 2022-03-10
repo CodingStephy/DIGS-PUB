@@ -1,0 +1,785 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Courier New';
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-family: 'Arial';
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-family: 'Arial';
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-family: 'Arial';
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ font-family: 'Arial';
+ color: #008000;
+ text-decoration: underline;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+--></style>
+</head>
+<body>
+
+<p><br></p>
+<div><table width="100%" border=1 cellpadding=1 cellspacing=2 style="background-color: #ffffff;">
+<tr valign=top>
+<td style="border-style: inset;">
+<p><span class=rvts1>ArtworksPK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Title</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Medium</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ArtistFK</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Repos</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Travail</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>la Bataille de Magenta</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>le Portrait de l’Empereur</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>la Naissance de Venus</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>la Perle et la Vague</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>La Féerie</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Déjeuner sur l'herbe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>The White Girl</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>L'homme à la houe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>11</p>
+</td>
+<td style="border-style: inset;">
+<p>les Champs aux premières clartés Chintreuil</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>12</p>
+</td>
+<td style="border-style: inset;">
+<p>Les canards sauvages</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>11</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>13</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Chemin creux</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>12</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>14</p>
+</td>
+<td style="border-style: inset;">
+<p>Portraits d'Amis</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>13</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Jeune Homme en costume de
+majo</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>Paysage</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>14</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>17</p>
+</td>
+<td style="border-style: inset;">
+<p>Paysage</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>The Adulteress</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>19</p>
+</td>
+<td style="border-style: inset;">
+<p>D’après la Fontaine</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>17</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>20</p>
+</td>
+<td style="border-style: inset;">
+<p>La Femme adultère</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>21</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Kawonadji soleil couchant.</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>22</p>
+</td>
+<td style="border-style: inset;">
+<p>Premières pensées d'amour.</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>23</p>
+</td>
+<td style="border-style: inset;">
+<p>Benvenuto Cellini dans son atelier</p>
+</td>
+<td style="border-style: inset;">
+<p>Lithograph</p>
+</td>
+<td style="border-style: inset;">
+<p>19</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>La Mort d'Adonis</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>20</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>La Dernière heure</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>21</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>26</p>
+</td>
+<td style="border-style: inset;">
+<p>L'Hercules et L'omphale</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>22</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>27</p>
+</td>
+<td style="border-style: inset;">
+<p>Portrait de S. M. l'Empereur</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>23</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>28</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Prisonnier</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>29</p>
+</td>
+<td style="border-style: inset;">
+<p>Le bivouac arabe au lever du jour</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>30</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Fauconnier arabe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>Etude à-Villed’Avray</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>26</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>Et Toujours! Et Jamais!</p>
+</td>
+<td style="border-style: inset;">
+<p>Sculpture</p>
+</td>
+<td style="border-style: inset;">
+<p>27</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>33</p>
+</td>
+<td style="border-style: inset;">
+<p>la Chasse au Renard</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>28</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>P. Verhaegen</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>29</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>35</p>
+</td>
+<td style="border-style: inset;">
+<p>Bataille de Magenta</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>30</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>36</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Matin avant l'attaque</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>37</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Soir aprés le combat</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>38</p>
+</td>
+<td style="border-style: inset;">
+<p>La Danse de Gitanos</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>La scène du Deluge</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>Le lutrin</p>
+</td>
+<td style="border-style: inset;">
+<p>Etching</p>
+</td>
+<td style="border-style: inset;">
+<p>33</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>41</p>
+</td>
+<td style="border-style: inset;">
+<p>les viies de Naples</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>42</p>
+</td>
+<td style="border-style: inset;">
+<p>David vainqueur</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>35</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>43</p>
+</td>
+<td style="border-style: inset;">
+<p>Fête Galante</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>36</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>44</p>
+</td>
+<td style="border-style: inset;">
+<p>Rendez-vous de chasse de l’empereur Napoléon III à Pierrefonds</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>37</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>45</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Christ au jardin des oliviers</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>38</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>46</p>
+</td>
+<td style="border-style: inset;">
+<p>Robespierre dabs la salle du comité de salut public</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>47</p>
+</td>
+<td style="border-style: inset;">
+<p>La Mort d'Adonis</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>48</p>
+</td>
+<td style="border-style: inset;">
+<p>La Maternité</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>49</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Crépuscule</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>50</p>
+</td>
+<td style="border-style: inset;">
+<p>La Dernière heure</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>41</p>
+</td>
+</tr>
+</table>
+</div>
+
+</body></html>

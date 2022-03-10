@@ -1,0 +1,5250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title></title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Courier New';
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-family: 'Arial';
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-family: 'Arial';
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-family: 'Arial';
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ font-family: 'Arial';
+ color: #008000;
+ text-decoration: underline;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+--></style>
+</head>
+<body>
+
+<p><br></p>
+<div><table width="100%" border=1 cellpadding=1 cellspacing=2 style="background-color: #ffffff;">
+<tr valign=top>
+<td style="border-style: inset;">
+<p><span class=rvts1>CriticsPK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>First Name</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Last Name</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Occupation</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ReviewsPK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Title</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Periodicals</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Publishing Date</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Link to the Review</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>CriticFK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ReviewFK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ArtistFK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ReviewQualityFK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Review_Quality_PK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Review Quality</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ArtistsPK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>First Name</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Last Name</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ExhibitionFK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ArtworksPK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Title</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Medium</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ArtistFK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>ExhibitionPK</span></p>
+</td>
+<td style="border-style: inset;">
+<p><span class=rvts1>Name</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Charles</p>
+</td>
+<td style="border-style: inset;">
+<p>Yriarte</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>EXPOSITION -DES BEAUX-ARTS
+VUE DU GRAND SALON CARRÉ.</p>
+</td>
+<td style="border-style: inset;">
+<p>LE MONDE ILLUSTRÉ</p>
+</td>
+<td style="border-style: inset;">
+<p>27 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-monde-illustre/27-juin-1863/189/2905435/8?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searchIn%" title="Click here!">https://www.retronews.fr/journal/le-monde-illustre/27-juin-1863/189/2905435/8?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searchIn%</a></p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Puvis de Chavannes</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Repos</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Charles</p>
+</td>
+<td style="border-style: inset;">
+<p>Yriarte</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>EXPOSITION -DES BEAUX-ARTS
+VUE DU GRAND SALON CARRÉ.</p>
+</td>
+<td style="border-style: inset;">
+<p>LE MONDE ILLUSTRÉ</p>
+</td>
+<td style="border-style: inset;">
+<p>27 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-monde-illustre/27-juin-1863/189/2905435/8?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searchIn%" title="Click here!">https://www.retronews.fr/journal/le-monde-illustre/27-juin-1863/189/2905435/8?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searchIn%</a></p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Puvis de Chavannes</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Travail</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Adolphe</p>
+</td>
+<td style="border-style: inset;">
+<p>Yvon</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>la Bataille de Magenta</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Hippolyte</p>
+</td>
+<td style="border-style: inset;">
+<p>Flandrin</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>le Portrait de l’Empereur</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Alexandre</p>
+</td>
+<td style="border-style: inset;">
+<p>Cabanel</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>la Naissance de Venus</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-mai-1863/3328/5027058/2?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Paul-Jacques-Aimé</p>
+</td>
+<td style="border-style: inset;">
+<p>Baudry</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>la Perle et la Vague</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>E.</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>19 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Henri</p>
+</td>
+<td style="border-style: inset;">
+<p>Fantin-Latour</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>La Féerie</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>E.</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>19 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Déjeuner sur l'herbe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>E.</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>19 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Jeune Homme en costume de
+majo</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>E.</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>19 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>James</p>
+</td>
+<td style="border-style: inset;">
+<p>Whistler</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>The White Girl</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>E.</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>19 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>Jean-François</p>
+</td>
+<td style="border-style: inset;">
+<p>Millet</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>L'homme à la houe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>E.</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>19 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Antoine</p>
+</td>
+<td style="border-style: inset;">
+<p>Chintreuil</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>11</p>
+</td>
+<td style="border-style: inset;">
+<p>les Champs aux premières clartés Chintreuil</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>E.</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>19 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/19-mai-1863/22/744617/1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>11</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>11</p>
+</td>
+<td style="border-style: inset;">
+<p>Henri</p>
+</td>
+<td style="border-style: inset;">
+<p>Harpignies</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>12</p>
+</td>
+<td style="border-style: inset;">
+<p>Les canards sauvages</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>11</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Théophile</p>
+</td>
+<td style="border-style: inset;">
+<p>Gautier</p>
+</td>
+<td style="border-style: inset;">
+<p>Civil servant</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Monde illustré</p>
+</td>
+<td style="border-style: inset;">
+<p>8 août 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>12</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>12</p>
+</td>
+<td style="border-style: inset;">
+<p>Alfred</p>
+</td>
+<td style="border-style: inset;">
+<p>Cornilliet</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>13</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Chemin creux</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>12</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Théophile</p>
+</td>
+<td style="border-style: inset;">
+<p>Gautier</p>
+</td>
+<td style="border-style: inset;">
+<p>Civil servant</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Monde illustré</p>
+</td>
+<td style="border-style: inset;">
+<p>8 août 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>13</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>13</p>
+</td>
+<td style="border-style: inset;">
+<p>Henri</p>
+</td>
+<td style="border-style: inset;">
+<p>Lehmann</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>14</p>
+</td>
+<td style="border-style: inset;">
+<p>Portraits d'Amis</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>13</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Théophile</p>
+</td>
+<td style="border-style: inset;">
+<p>Gautier</p>
+</td>
+<td style="border-style: inset;">
+<p>Civil servant</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Monde illustré</p>
+</td>
+<td style="border-style: inset;">
+<p>8 août 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Déjeuner sur l'herbe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Théophile</p>
+</td>
+<td style="border-style: inset;">
+<p>Gautier</p>
+</td>
+<td style="border-style: inset;">
+<p>Civil servant</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Monde illustré</p>
+</td>
+<td style="border-style: inset;">
+<p>8 août 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1" title="Click here!">https://www.retronews.fr/journal/le-monde-illustre/8-aout-1863/189/2897755/8?from=%2Fsearch%23allTerms%3Dsalon%2520officiel%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1</a></p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Jeune Homme en costume de
+majo</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>14</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>14</p>
+</td>
+<td style="border-style: inset;">
+<p>Francis</p>
+</td>
+<td style="border-style: inset;">
+<p>Blin</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>Paysage</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>14</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Castan</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>17</p>
+</td>
+<td style="border-style: inset;">
+<p>Paysage</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>Amand</p>
+</td>
+<td style="border-style: inset;">
+<p>Gautier</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>The Adulteress</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>17</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>17</p>
+</td>
+<td style="border-style: inset;">
+<p>Gustave</p>
+</td>
+<td style="border-style: inset;">
+<p>Doyen</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>19</p>
+</td>
+<td style="border-style: inset;">
+<p>D’après la Fontaine</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>17</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>Georges</p>
+</td>
+<td style="border-style: inset;">
+<p>Hébert</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>20</p>
+</td>
+<td style="border-style: inset;">
+<p>La Femme adultère</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>Georges</p>
+</td>
+<td style="border-style: inset;">
+<p>Hébert</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>22</p>
+</td>
+<td style="border-style: inset;">
+<p>Premières pensées d'amour.</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>Georges</p>
+</td>
+<td style="border-style: inset;">
+<p>Hébert</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>21</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Kawonadji soleil couchant.</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Déjeuner sur l'herbe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Jeune Homme en costume de
+majo</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>James</p>
+</td>
+<td style="border-style: inset;">
+<p>Whistler</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>The White Girl</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Fillonneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Moniteur des arts</p>
+</td>
+<td style="border-style: inset;">
+<p>6 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2" title="Click here!">https://www.retronews.fr/journal/moniteur-des-arts/6-juin-1863/3328/5027050/2</a></p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>19</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>19</p>
+</td>
+<td style="border-style: inset;">
+<p>Adolphe</p>
+</td>
+<td style="border-style: inset;">
+<p>Mouilleron</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>23</p>
+</td>
+<td style="border-style: inset;">
+<p>Benvenuto Cellini dans son atelier</p>
+</td>
+<td style="border-style: inset;">
+<p>Lithograph</p>
+</td>
+<td style="border-style: inset;">
+<p>19</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Jules-Antoine</p>
+</td>
+<td style="border-style: inset;">
+<p>Castagnary</p>
+</td>
+<td style="border-style: inset;">
+<p>Politician</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Courrier du dimanche</p>
+</td>
+<td style="border-style: inset;">
+<p>14 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc" title="Click here!">https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc</a></p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>Amand</p>
+</td>
+<td style="border-style: inset;">
+<p>Gautier</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>The Adulteress</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Jules-Antoine</p>
+</td>
+<td style="border-style: inset;">
+<p>Castagnary</p>
+</td>
+<td style="border-style: inset;">
+<p>Politician</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Courrier du dimanche</p>
+</td>
+<td style="border-style: inset;">
+<p>14 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc" title="Click here!">https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc</a></p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>20</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>20</p>
+</td>
+<td style="border-style: inset;">
+<p>Marcel</p>
+</td>
+<td style="border-style: inset;">
+<p>Briguiboul</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>La Mort d'Adonis</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>20</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Jules-Antoine</p>
+</td>
+<td style="border-style: inset;">
+<p>Castagnary</p>
+</td>
+<td style="border-style: inset;">
+<p>Politician</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Courrier du dimanche</p>
+</td>
+<td style="border-style: inset;">
+<p>14 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc" title="Click here!">https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc</a></p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>James</p>
+</td>
+<td style="border-style: inset;">
+<p>Whistler</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>The White Girl</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Jules-Antoine</p>
+</td>
+<td style="border-style: inset;">
+<p>Castagnary</p>
+</td>
+<td style="border-style: inset;">
+<p>Politician</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863
+Les Refusés</p>
+</td>
+<td style="border-style: inset;">
+<p>Courrier du dimanche</p>
+</td>
+<td style="border-style: inset;">
+<p>14 juin 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc" title="Click here!">https://www.retronews.fr/journal/courrier-du-dimanche/14-juin-1863/3384/5027100/4?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D1%26searc</a></p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>21</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>21</p>
+</td>
+<td style="border-style: inset;">
+<p>Charles-Louis</p>
+</td>
+<td style="border-style: inset;">
+<p>Vielcazal</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>La Dernière heure</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>21</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>22</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>22</p>
+</td>
+<td style="border-style: inset;">
+<p>Charles</p>
+</td>
+<td style="border-style: inset;">
+<p>Gleyre</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>26</p>
+</td>
+<td style="border-style: inset;">
+<p>L'Hercules et L'omphale</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>22</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>23</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>23</p>
+</td>
+<td style="border-style: inset;">
+<p>Jean-Hippolyte</p>
+</td>
+<td style="border-style: inset;">
+<p>Flandrin</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>27</p>
+</td>
+<td style="border-style: inset;">
+<p>Portrait de S. M. l'Empereur</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>23</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>Jean</p>
+</td>
+<td style="border-style: inset;">
+<p>Gérôme</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>28</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Prisonnier</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>Eugène</p>
+</td>
+<td style="border-style: inset;">
+<p>Fromentin</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>30</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Fauconnier arabe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>Eugène</p>
+</td>
+<td style="border-style: inset;">
+<p>Fromentin</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>29</p>
+</td>
+<td style="border-style: inset;">
+<p>Le bivouac arabe au lever du jour</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>25</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>26</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>26</p>
+</td>
+<td style="border-style: inset;">
+<p>Jean-Baptiste</p>
+</td>
+<td style="border-style: inset;">
+<p>Corot</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>Etude à-Villed’Avray</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>26</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>27</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>27</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre-Eugène-Emile</p>
+</td>
+<td style="border-style: inset;">
+<p>Hébert</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>Et Toujours! Et Jamais!</p>
+</td>
+<td style="border-style: inset;">
+<p>Sculpture</p>
+</td>
+<td style="border-style: inset;">
+<p>27</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>28</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>28</p>
+</td>
+<td style="border-style: inset;">
+<p>Gustave</p>
+</td>
+<td style="border-style: inset;">
+<p>Courbet</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>33</p>
+</td>
+<td style="border-style: inset;">
+<p>la Chasse au Renard</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>28</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>29</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>29</p>
+</td>
+<td style="border-style: inset;">
+<p>Liévin</p>
+</td>
+<td style="border-style: inset;">
+<p>De Winne</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>P. Verhaegen</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>29</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>C.</p>
+</td>
+<td style="border-style: inset;">
+<p>De Sault</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Temps</p>
+</td>
+<td style="border-style: inset;">
+<p>12 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot" title="Click here!">https://www.retronews.fr/journal/le-temps/12-mai-1863/123/762589/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Dall%26tot</a></p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>30</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>30</p>
+</td>
+<td style="border-style: inset;">
+<p>Adolphe</p>
+</td>
+<td style="border-style: inset;">
+<p>Yvon</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>35</p>
+</td>
+<td style="border-style: inset;">
+<p>Bataille de Magenta</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>30</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Puvis de Chavannes</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Repos</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Puvis de Chavannes</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Travail</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>Paul-Alexandre</p>
+</td>
+<td style="border-style: inset;">
+<p>Protais</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>36</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Matin avant l'attaque</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>Paul-Alexandre</p>
+</td>
+<td style="border-style: inset;">
+<p>Protais</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>37</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Soir aprés le combat</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>31</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>Gustave</p>
+</td>
+<td style="border-style: inset;">
+<p>Doré</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>38</p>
+</td>
+<td style="border-style: inset;">
+<p>La Danse de Gitanos</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>Gustave</p>
+</td>
+<td style="border-style: inset;">
+<p>Doré</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>La scène du Deluge</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>32</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>33</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>33</p>
+</td>
+<td style="border-style: inset;">
+<p>Alphonse</p>
+</td>
+<td style="border-style: inset;">
+<p>Legros</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>Le lutrin</p>
+</td>
+<td style="border-style: inset;">
+<p>Etching</p>
+</td>
+<td style="border-style: inset;">
+<p>33</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>Alexandre</p>
+</td>
+<td style="border-style: inset;">
+<p>Cabanel</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>la Naissance de Venus</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>4</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>Paul-Jacques-Aimé</p>
+</td>
+<td style="border-style: inset;">
+<p>Baudry</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>6</p>
+</td>
+<td style="border-style: inset;">
+<p>la Perle et la Vague</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>5</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>Oswald</p>
+</td>
+<td style="border-style: inset;">
+<p>Achenbach</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>41</p>
+</td>
+<td style="border-style: inset;">
+<p>les viies de Naples</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>35</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>35</p>
+</td>
+<td style="border-style: inset;">
+<p>François</p>
+</td>
+<td style="border-style: inset;">
+<p>Chifflart</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>42</p>
+</td>
+<td style="border-style: inset;">
+<p>David vainqueur</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>35</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Ernest</p>
+</td>
+<td style="border-style: inset;">
+<p>Chesneau</p>
+</td>
+<td style="border-style: inset;">
+<p>Art Historian</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Beaux-Arts. Salon de 1863</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Constitutionnel</p>
+</td>
+<td style="border-style: inset;">
+<p>5 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da" title="Click here!">https://www.retronews.fr/journal/le-constitutionnel/5-mai-1863/22/751591/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D3%26searchIn%3Da</a></p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>Jean</p>
+</td>
+<td style="border-style: inset;">
+<p>Gérôme</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>28</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Prisonnier</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>24</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Véron</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863: le premier salon d'un critique d'art</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Charivari</p>
+</td>
+<td style="border-style: inset;">
+<p>14 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-charivari/14-mai-1863/127/4124427/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D4%26searchIn%3Dall%" title="Click here!">https://www.retronews.fr/journal/le-charivari/14-mai-1863/127/4124427/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D4%26searchIn%3Dall%</a></p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>36</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>36</p>
+</td>
+<td style="border-style: inset;">
+<p>Voillet</p>
+</td>
+<td style="border-style: inset;">
+<p>Charles</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>43</p>
+</td>
+<td style="border-style: inset;">
+<p>Fête Galante</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>36</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Véron</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863: le premier salon d'un critique d'art</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Charivari</p>
+</td>
+<td style="border-style: inset;">
+<p>14 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-charivari/14-mai-1863/127/4124427/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D4%26searchIn%3Dall%" title="Click here!">https://www.retronews.fr/journal/le-charivari/14-mai-1863/127/4124427/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D4%26searchIn%3Dall%</a></p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>37</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>37</p>
+</td>
+<td style="border-style: inset;">
+<p>François</p>
+</td>
+<td style="border-style: inset;">
+<p>Lépaulle</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>44</p>
+</td>
+<td style="border-style: inset;">
+<p>Rendez-vous de chasse de l’empereur Napoléon III à Pierrefonds</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>37</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>Pierre</p>
+</td>
+<td style="border-style: inset;">
+<p>Véron</p>
+</td>
+<td style="border-style: inset;">
+<p>Writer</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863: le premier salon d'un critique d'art</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Charivari</p>
+</td>
+<td style="border-style: inset;">
+<p>14 mai 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-charivari/14-mai-1863/127/4124427/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D4%26searchIn%3Dall%" title="Click here!">https://www.retronews.fr/journal/le-charivari/14-mai-1863/127/4124427/1?from=%2Fsearch%23allTerms%3Dsalon%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBounds%3Dfrom%26page%3D4%26searchIn%3Dall%</a></p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>9</p>
+</td>
+<td style="border-style: inset;">
+<p>38</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>38</p>
+</td>
+<td style="border-style: inset;">
+<p>Louis-Henri</p>
+</td>
+<td style="border-style: inset;">
+<p>de Rudder</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>45</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Christ au jardin des oliviers</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>38</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon de 1863</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>Marcel</p>
+</td>
+<td style="border-style: inset;">
+<p>Briguiboul</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>47</p>
+</td>
+<td style="border-style: inset;">
+<p>La Mort d'Adonis</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>Marcel</p>
+</td>
+<td style="border-style: inset;">
+<p>Briguiboul</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>46</p>
+</td>
+<td style="border-style: inset;">
+<p>Robespierre dabs la salle du comité de salut public</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>39</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>8</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Déjeuner sur l'herbe</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Negative</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>Édouard</p>
+</td>
+<td style="border-style: inset;">
+<p>Manet</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>15</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Jeune Homme en costume de
+majo</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>7</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>Louis</p>
+</td>
+<td style="border-style: inset;">
+<p>Dubois</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>48</p>
+</td>
+<td style="border-style: inset;">
+<p>La Maternité</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>3</p>
+</td>
+<td style="border-style: inset;">
+<p>Mixed</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>Louis</p>
+</td>
+<td style="border-style: inset;">
+<p>Dubois</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>49</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Crépuscule</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>40</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>41</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>41</p>
+</td>
+<td style="border-style: inset;">
+<p>Charles-Louis</p>
+</td>
+<td style="border-style: inset;">
+<p>Vielcazal</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>50</p>
+</td>
+<td style="border-style: inset;">
+<p>La Dernière heure</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>41</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>Amand</p>
+</td>
+<td style="border-style: inset;">
+<p>Gautier</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>18</p>
+</td>
+<td style="border-style: inset;">
+<p>The Adulteress</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>16</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>J.</p>
+</td>
+<td style="border-style: inset;">
+<p>Graham</p>
+</td>
+<td style="border-style: inset;">
+<p>Unknown</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>Un Etanger au Salon</p>
+</td>
+<td style="border-style: inset;">
+<p>Le Figaro</p>
+</td>
+<td style="border-style: inset;">
+<p>16 juillet 1863</p>
+</td>
+<td style="border-style: inset;">
+<p><a class=rvts4 href="https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo" title="Click here!">https://www.retronews.fr/journal/le-figaro-1854-/16-juillet-1863/104/804679/3?from=%2Fsearch%23allTerms%3Dsalon%2520des%2520refus%25C3%25A9s%2520%26sort%3Dscore%26publishedStart%3D1863-01-01%26publishedEnd%3D1863-12-31%26publishedBounds%3Dfrom%26indexedBo</a></p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>10</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>1</p>
+</td>
+<td style="border-style: inset;">
+<p>Positive</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>Oswald</p>
+</td>
+<td style="border-style: inset;">
+<p>Achenbach</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>41</p>
+</td>
+<td style="border-style: inset;">
+<p>les viies de Naples</p>
+</td>
+<td style="border-style: inset;">
+<p>Oil on Canvas</p>
+</td>
+<td style="border-style: inset;">
+<p>34</p>
+</td>
+<td style="border-style: inset;">
+<p>2</p>
+</td>
+<td style="border-style: inset;">
+<p>Salon des Refusees</p>
+</td>
+</tr>
+</table>
+</div>
+
+</body></html>

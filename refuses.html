@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+</head>
+
+<script>
+    $.get("./nav.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    $.get("./footer.html", function(data){
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+
+<body>
+        <nav>
+        <div id="nav-placeholder"></div>
+        </nav>
+    <main>
+    <div class="official">
+    <h3> What is it? </h3>
+    <p>Salon des Refusés, (French: Salon of the Refused), art exhibition held in 1863 in Paris by command of Napoleon III for those artists whose works had been refused by the jury of the official Salon. Among the exhibitors were Paul Cézanne, Camille Pissarro, Armand Guillaumin, Johan Jongkind, Henri Fantin-Latour, James Whistler, and Édouard Manet, who exhibited his famous painting “Le Déjeuner sur l’herbe,” officially regarded as a scandalous affront to taste.(Britannica)</p>
+    <h3> What do critics say about it? </h3>
+    <div class ="comment">
+    <img class="critic" src="https://res.cloudinary.com/dt5zbnwvr/image/upload/v1646883244/407px-Fernand_Desnoyers_fns1lw.jpg">
+    <p style="text-align: center;">Fernand Desnoyers</p>
+    <p>
+    "S'il faut insister sur l' utilité, sur l' importance de la défense et sur celle de l' Exposition des tableaux refusés, je dirai que les tableaux reçus sont peut-être moins mauvais, mais à coup sûr plus ordinaires et plus médiocres que les autres. On trouvera bien plus de hardiesse et d' essai, bien plus de tentatives malheureuses, mais courageuses dans les tableaux refusés que dans ceux reçus."</p>
+    </div>
+</div>
+    <div id="footer-placeholder"></div>
+    </main>
+</body>
+</html>

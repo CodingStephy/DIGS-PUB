@@ -12,14 +12,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   
-    <title>RSTI Texts</title>
-    <!--JS links-->
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
-    <script src="LoadTextList.js"></script>
-</head>
 
 <script>
     $.get("./nav.html", function(data){
@@ -32,28 +24,45 @@
     
 
 
-<body onload="loadXML()">
+<body>
     <div id="nav-placeholder"></div>
-    <div class="container mt-3">
-      <div id="title"></div>
-      <div id="subtitle"></div>
-  
-      <div class="container">
-        <h3 id="projectTitle"></h3>
-        <h4 id="setTitle"></h4>
-        <div id="setDescription"></div>
-        <table class="table table-striped order-table" id="ochreTable">
-          <thead class="thead-dark" id="ochreTableColumns">
-            <tr>
-              <th style="text-align: left; width: 30%">Name</th>
-              <th style="text-align: left; width: 30%">Description</th>
-            </tr>
-          </thead>
-          <tbody id="ochreTableBody">
-          </tbody>
-        </table>
-      </div>
-      <a id="license"></a>
-    </div>
+    <div class="data">
+    <H3>Result</H3>
+    <p> By combining all the table using sql as such: </p>
+    <ul>
+     <li>The average score of each exhibition according to reviews</li>
+     <li> with cte as (select *, </li>
+     <li>case when ReviewQualityFK = 1 then 1</li>
+               <li>when ReviewQualityFK = 2 then 0 </li>
+      		 <li>else 0.5 end as new_score</li>
+      <li>from ReviewandArtist ra</li>
+      <li>inner join Artists a </li>
+      <li>on ra.ArtistFK = a.ArtistsPK)</li>
+      <li>select ExhibitionFK, avg(new_score) as average_score from cte </li>
+      <li>group by ExhibitionFK</li>
+    </ul>
+    <p> I achieved the result of:</p></div>
+    <div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Salon Officiel</th>
+          <th scope="col">Salon des Refuses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">avr score</th>
+          <td>0.839285714285713</td>
+          <td>0.62</td>
+        </tr>
+      </tbody>
+    </table></div>
+    <div class="data"><p>
+      After collecting and organizing all the data, I assigned a numerical value to each review: positive as 1, negative as 0, and mixed as 0.5. <br>
+      The result indicated that Salon de 1863 received a score of 0.839 compared to 0.62 for Salon des Refusés. Thus, according to the 10 reviews analyzed, Salon de 1863 was more critically acclaimed than Salon des Refusés. Although the reviews for the official salon were closer to positive, the reviews for the counter-salon were closer to mixed. 
+    </p></div>
     <div id="footer-placeholder"></div>
+</body>
 </html>

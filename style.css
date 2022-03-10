@@ -206,11 +206,28 @@ footer .copy{
     gap: 5%;
 }
 
+/* Exhibition */
+
+.exhibition a{
+  font-size:24px;  
+}
 .exhibition img{
-    width:90%; 
-    height:300px !important; 
+    width:100%; 
+    height:500px; 
 }
 
+
+/* Compare Page */
+.data{ 
+    margin:2%; 
+}
+
+.data p{
+    color:blue; 
+}
+.data li{
+    list-style-type: none;
+}
 
 /* responsive  */
 @media screen and (max-width: 768px) {
@@ -322,4 +339,16 @@ button {
     margin:20px;
     flex-direction: row; 
     justify-content: space-around; 
+}
+
+.official{
+    margin:3%; 
+}
+
+.critic{
+   width:200px; 
+   height:auto; 
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
 }
