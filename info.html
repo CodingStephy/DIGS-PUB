@@ -27,8 +27,8 @@
 <body>
     <div id="nav-placeholder"></div>
     <div class="data">
-    <H3>Result</H3>
-    <p> By combining all the table using sql as such: </p>
+    <h1>Result</h1>
+    <h3> By combining all the table using sql as such: </h3>
     <ul>
      <li>The average score of each exhibition according to reviews</li>
      <li> with cte as (select *, </li>
@@ -41,7 +41,7 @@
       <li>select ExhibitionFK, avg(new_score) as average_score from cte </li>
       <li>group by ExhibitionFK</li>
     </ul>
-    <p> I achieved the result of:</p></div>
+    <h3> I achieved the result of:</h3></div>
     <div>
     <table class="table">
       <thead>
@@ -59,7 +59,7 @@
         </tr>
       </tbody>
     </table></div>
-    <div class="data"><p>
+    <div class="data"><p class = "dropcap">
       After collecting and organizing all the data, I assigned a numerical value to each review: positive as 1, negative as 0, and mixed as 0.5. <br>
       The result indicated that Salon de 1863 received a score of 0.839 compared to 0.62 for Salon des Refusés. Thus, according to the 10 reviews analyzed, Salon de 1863 was more critically acclaimed than Salon des Refusés. Although the reviews for the official salon were closer to positive, the reviews for the counter-salon were closer to mixed. 
     </p></div>
